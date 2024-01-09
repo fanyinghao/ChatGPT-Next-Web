@@ -7,8 +7,8 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确，需要先🛒[购买订阅](https://afdian.net/item/680045bcaefb11ee9b3852540025c377)获得。"
+      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key，需要先🛒[购买订阅](https://afdian.net/item/680045bcaefb11ee9b3852540025c377)获得。",
   },
   Auth: {
     Title: "需要密码",
@@ -439,6 +439,7 @@ const cn = {
     Title: "欢迎资助这个网站",
     SubTitle: "调用ChatGPT接口需要成本费用💲，欢迎打赏支持❤️",
     More: "查看全部",
+    Pay: "购买订阅",
   },
 
   URLCommand: {

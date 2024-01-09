@@ -146,6 +146,11 @@ export function NewChat() {
 
       <div className={styles["title"]}>{Locale.NewChat.Title}</div>
       <div className={styles["sub-title"]}>{Locale.NewChat.SubTitle}</div>
+      <div className={styles["title"]}>
+        <a href="https://afdian.net/item/680045bcaefb11ee9b3852540025c377">
+          🛒{Locale.NewChat.Pay}
+        </a>
+      </div>
       <div className={styles["sub-title"]}>
         <img
           src={"https://yisi-1253291586.cos.ap-guangzhou.myqcloud.com/ali.jpg"}
