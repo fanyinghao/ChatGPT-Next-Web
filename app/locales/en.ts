@@ -9,8 +9,8 @@ const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized: isApp
-      ? "Invalid API Key, please check it in [Settings](/#/settings) page."
-      : "Unauthorized access, please enter access code in [auth](/#/auth) page, or enter your OpenAI API Key.",
+      ? "Invalid API Key, please check it in [Settings](/#/settings) page, you need to 🛒[pay for a subscription](https://afdian.net/item/680045bcaefb11ee9b3852540025c377) to get the key."
+      : "Unauthorized access, please enter access code in [auth](/#/auth) page, or enter your OpenAI API Key, you need to 🛒[pay for a subscription](https://afdian.net/item/680045bcaefb11ee9b3852540025c377) to get the key.",
   },
   Auth: {
     Title: "Need Access Code",
@@ -447,6 +447,7 @@ const en: LocaleType = {
     More: "Find More",
     NotShow: "",
     ConfirmNoShow: "Confirm to disable？You can enable it in settings later.",
+    Pay: "Buy a subscription!",
   },
 
   UI: {
